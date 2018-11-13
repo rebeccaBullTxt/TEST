@@ -6,7 +6,7 @@
 //
 
 #import "TestViewController.h"
-#import "Masonry/Masonry.h"
+#import "Masonry.h"
 @interface TestViewController ()
 
 @end

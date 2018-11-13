@@ -7,6 +7,8 @@
 //
 
 #import "HTViewController.h"
+#import <TEST/TestViewController.h>
+
 
 @interface HTViewController ()
 
@@ -18,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    TestViewController *vc = [[TestViewController alloc]init];
+    [self addChildViewController:vc];
+    vc.view.frame = CGRectMake(200, 200, 100, 100);
+    [self.view addSubview:vc.view];
+    
 }
 
 - (void)didReceiveMemoryWarning
