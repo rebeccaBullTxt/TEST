@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TEST'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'TESTTESTTEST'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   #   'TEST' => ['TEST/Assets/*.png']
   # }
 
-   s.public_header_files = 'TEST/Classes/**/TViewController.h'
+   s.public_header_files = 'TEST/Classes/**/TestViewController.h'
    s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking', '~> 2.3'
 end
