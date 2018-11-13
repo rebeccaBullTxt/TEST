@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - TEST (0.1.0):
+  - TEST (0.2.0):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  TEST: 233df54bb9bc92663d4877278698a8639ebffdcc
+  TEST: 1da45b38b24249ac4590c12bf43a5342e459f842
 
 PODFILE CHECKSUM: 509014c03f1aa9042a2cce2d54d4ed202fb47bba
 

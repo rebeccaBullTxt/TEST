@@ -6,7 +6,7 @@
 //
 
 #import "TestViewController.h"
-
+#import "Masonry/Masonry.h"
 @interface TestViewController ()
 
 @end
@@ -16,6 +16,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UILabel *lab = [[UILabel alloc]init];
+    lab.text = @"test";
+    [self.view addSubview:lab];
+    
+    [lab mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
 
 /*
