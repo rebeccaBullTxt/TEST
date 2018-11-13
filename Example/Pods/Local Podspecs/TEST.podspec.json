@@ -1,0 +1,32 @@
+{
+  "name": "TEST",
+  "version": "0.1.0",
+  "summary": "TESTTESTTEST",
+  "description": "TESTTESTTESTTESTTESTTEST",
+  "homepage": "https://github.com/rebeccaBullTxt/TEST",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rebeccaBullTxt": "rebeccaBull@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/rebeccaBullTxt/TEST.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TEST/Classes/**/*",
+  "public_header_files": "TEST/Classes/**/TViewController.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
