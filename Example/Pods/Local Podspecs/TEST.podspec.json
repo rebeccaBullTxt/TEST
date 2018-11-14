@@ -1,6 +1,6 @@
 {
   "name": "TEST",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "summary": "TESTTESTTEST",
   "description": "TESTTESTTESTTESTTESTTEST",
   "homepage": "https://github.com/rebeccaBullTxt/TEST",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/rebeccaBullTxt/TEST.git",
-    "tag": "0.6.0"
+    "tag": "0.7.0"
   },
   "platforms": {
     "ios": "8.0"
