@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TEST'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = 'TESTTESTTEST'
 
 # This description is used to generate tags and improve search results.
@@ -29,13 +29,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
 #  s.source_files = 'TEST/Classes/**/*'
-s.source_files = 'TEST/Classes/**/HeaderFiles.h','TEST/Classes/**/*.{h,m}'
+  s.source_files = 'TEST/Classes/**/HeaderFiles.h','TEST/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'TEST' => ['TEST/Assets/*.png']
   # }
 
-   s.public_header_files = 'TEST/Classes/**/TestViewController.h'
+   s.public_header_files = 'TEST/Classes/**/TestViewController.h','TEST/Classes/**/HeaderFiles.h'
    s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'Masonry'
 end

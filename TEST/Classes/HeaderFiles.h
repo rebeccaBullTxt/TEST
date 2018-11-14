@@ -8,6 +8,6 @@
 #ifndef HeaderFiles_h
 #define HeaderFiles_h
 
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 
 #endif /* HeaderFiles_h */

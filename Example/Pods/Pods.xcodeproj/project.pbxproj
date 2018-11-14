@@ -28,7 +28,6 @@
 		66A3D62D74E1B443C1A6AF560A53A69F /* Pods-TEST_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDDA1A2AF81B707FD9067DE35452053 /* Pods-TEST_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
 		7B8B58B92909A3589A4208774B8A4300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7D158539A300F2682734F4147C288B /* UIKit.framework */; };
-		83F152ACBDD988BBE94F8ACF6DBD7366 /* HeaderFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD722E99273BA9B747CFB37EA9705E4 /* HeaderFiles.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		855B09E6808A2D829B6FAA19392F0014 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E6ACDEB6BC9A20A7B6969E80AAC1A /* ReplaceMe.m */; };
 		892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		959204D1AB2CAB5C8230C86789FF95B3 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16BE983CF6FD2C60CA8DD76FE9F4C50 /* Masonry.framework */; };
@@ -38,6 +37,7 @@
 		A7F3815E6B004BBC2CA82B7CD0600663 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF5C3A6D8042EEDDFCB24664E18B46B /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		AA9F4355A8EF17808BCC775A7DAB3FE9 /* Pods-TEST_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E989EADE27A7F7E5C892096C38C4AC7 /* Pods-TEST_Example-dummy.m */; };
+		ACB9AEFF8A316E48E08AB867E430F0D3 /* HeaderFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD722E99273BA9B747CFB37EA9705E4 /* HeaderFiles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE6FBBC1E1B04D5C7944EA005C90B39C /* TEST-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE40B70FD6BE867F3B183173EE1D258C /* TEST-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
@@ -436,7 +436,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F152ACBDD988BBE94F8ACF6DBD7366 /* HeaderFiles.h in Headers */,
+				ACB9AEFF8A316E48E08AB867E430F0D3 /* HeaderFiles.h in Headers */,
 				AE6FBBC1E1B04D5C7944EA005C90B39C /* TEST-umbrella.h in Headers */,
 				A7F3815E6B004BBC2CA82B7CD0600663 /* TestViewController.h in Headers */,
 			);
