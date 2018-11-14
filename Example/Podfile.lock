@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - TEST (0.8.0):
+  - TEST (0.9.0):
     - Masonry
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TEST: 3ff9dc4dcbd57a72594dace96f616cc5d9dbfbe2
+  TEST: e360453b27704810e10e14d96aae8c8b51a4c609
 
 PODFILE CHECKSUM: 509014c03f1aa9042a2cce2d54d4ed202fb47bba
 

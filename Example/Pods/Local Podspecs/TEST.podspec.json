@@ -1,6 +1,6 @@
 {
   "name": "TEST",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "summary": "TESTTESTTEST",
   "description": "TESTTESTTESTTESTTESTTEST",
   "homepage": "https://github.com/rebeccaBullTxt/TEST",
@@ -13,26 +13,28 @@
   },
   "source": {
     "git": "https://github.com/rebeccaBullTxt/TEST.git",
-    "tag": "0.8.0"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "TEST/Classes/**/HeaderFiles.h",
-    "TEST/Classes/**/*.{h,m}"
-  ],
-  "public_header_files": [
-    "TEST/Classes/**/TestViewController.h",
-    "TEST/Classes/**/HeaderFiles.h"
-  ],
+  "source_files": "TEST/Classes/**/*.{h,m}",
+  "static_framework": true,
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "public_header_files": "TEST/Classes/**/TestViewController.h",
   "frameworks": [
     "UIKit",
-    "MapKit"
+    "MapKit",
+    "Foundation",
+    "AVFoundation",
+    "CoreMedia"
   ],
   "dependencies": {
     "Masonry": [
 
     ]
-  }
+  },
+  "libraries": "stdc++"
 }
