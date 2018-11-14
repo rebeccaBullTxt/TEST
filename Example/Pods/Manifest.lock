@@ -1,42 +1,22 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
-  - AFNetworking/NSURLConnection (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.3)
-  - AFNetworking/Security (2.6.3)
-  - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
   - TEST (0.4.0):
-    - AFNetworking (~> 2.3)
+    - Masonry
 
 DEPENDENCIES:
   - TEST (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFNetworking
+    - Masonry
 
 EXTERNAL SOURCES:
   TEST:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  TEST: a881efe7a7dea6c78bd5a794aa37210821bd3088
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TEST: 5262c604600bbdf4353cd697396607d4f9ba1314
 
 PODFILE CHECKSUM: 509014c03f1aa9042a2cce2d54d4ed202fb47bba
 

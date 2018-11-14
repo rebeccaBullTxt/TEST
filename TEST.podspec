@@ -28,7 +28,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TEST/Classes/**/*'
+#  s.source_files = 'TEST/Classes/**/*'
+s.source_files = 'TEST/Classes/**/HeaderFiles.h','TEST/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'TEST' => ['TEST/Assets/*.png']
@@ -36,5 +37,5 @@ Pod::Spec.new do |s|
 
    s.public_header_files = 'TEST/Classes/**/TestViewController.h'
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Masonry'
 end

@@ -18,15 +18,18 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TEST/Classes/**/*",
+  "source_files": [
+    "TEST/Classes/**/HeaderFiles.h",
+    "TEST/Classes/**/*.{h,m}"
+  ],
   "public_header_files": "TEST/Classes/**/TestViewController.h",
   "frameworks": [
     "UIKit",
     "MapKit"
   ],
   "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
+    "Masonry": [
+
     ]
   }
 }
